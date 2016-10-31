@@ -219,7 +219,7 @@ FUNCTION {format.names}
   s num.names$ 'numnames :=
   numnames 'namesleft :=
     { namesleft #0 > }
-    { s nameptr "{ff~}{vv~}{ll}{, jj}" format.name$ 't :=
+    { s nameptr "{f.~}{vv~}{ll}{, jj}" format.name$ 't :=
       nameptr #1 >
         { namesleft #1 >
             { ", " * t * }
@@ -1159,7 +1159,7 @@ FUNCTION {format.lab.names}
     { pop$ " et~al." * }
     { #2 <
         'skip$
-        { s #2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
+        { s #2 "{f. }{vv }{ll}{ jj}" format.name$ "others" =
             { " et~al." * }
             { " and " * s #2 "{vv~}{ll}" format.name$ * }
           if$
