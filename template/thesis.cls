@@ -237,7 +237,7 @@
   \begin{titlepage}
 	\begin{tikzpicture}[remember picture, overlay]
 	  \node [anchor=north east, inner sep=-12mm]  at (current page.north east)
-	     {\includegraphics[height=2cm]{uts-logo}};
+	     {\includegraphics[height=2cm]{uts_logo_2017}};
 	\end{tikzpicture}
 
     \let\footnotesize\small
