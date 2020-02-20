@@ -121,7 +121,7 @@
 \usepackage[table]{xcolor} % http://ctan.org/pkg/xcolor (Should appear before tikz)
 \usepackage{tikz}
 
-\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the "Natbib" style for the references in the Bibliography
+\usepackage{apalike} % Use the "Natbib" style for the references in the Bibliography
 \usepackage{epstopdf}
 \usepackage[ruled]{algorithm2e}
 \usepackage{verbatim} % Needed for the "comment" environment to make LaTeX comments
