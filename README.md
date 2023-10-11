@@ -1,4 +1,4 @@
-#UTS-CAS PhD Thesis template for \Latex.
+# UTS-RI PhD Thesis template for \Latex.
 
 Please note that this is __NOT__ an official template from UTS. UTS library doesn't support \Latex.
 
